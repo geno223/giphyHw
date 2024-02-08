@@ -1,7 +1,7 @@
-function Gif({gif}) {
+function Gif(props) {
     return (
       <div className="Gif">
-        <img src={gif} alt=""/>
+        <img src={props.url} alt=""/>
       </div>
     );
   }
